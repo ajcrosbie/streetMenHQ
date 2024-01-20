@@ -58,8 +58,8 @@ b {
 }
 
 .collapsible-content .content-inner {
-    background: rgba(128, 0, 128, 0.05);
-    border-bottom: 1px solid rgba(250, 224, 66, .005);
+    background: rgba(128, 0, 128, 0.1);
+    border-bottom: 1px solid rgba(250, 224, 66, .02);
 
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -84,4 +84,9 @@ b {
 .toggle:checked+.lbl-toggle {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+.hiddenText {
+    height: 0px;
+    width: 0px;
 }
